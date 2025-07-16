@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Post;
 use App\Models\User;
+
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
@@ -16,10 +18,352 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => Hash::make('password'),
+//        User::factory()->create([
+//            'name'     => 'Test User',
+//            'email'    => 'test@example.com',
+//            'password' => Hash::make('password'),
+//        ]);
+
+
+        Post::create([
+            'blocks' => [
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    'type' => 'innerBlocks',
+                    'data' => [
+                        'blocks' => [
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ],
+                            [
+                                'type' => 'Banner',
+                                'data' => [
+                                    'has_media'   => false,
+                                    'has_overlay' => false
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
         ]);
     }
 }

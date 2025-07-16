@@ -21,8 +21,10 @@ This seems to be caused by inefficient recursion inside the `getSchemaComponent(
 
    ```bash
    cp .env.example .env
+   
    composer install
-   php artisan migrate
+   php artisan key:generate
+   php artisan migrate --seed
    php artisan serve
    ```
 3. Go to [http://localhost:8000](http://localhost:8000)
